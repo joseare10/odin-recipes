@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+}
+
+header{
+    background-color: greenyellow;
+    color: darkolivegreen;
+    font-size: 30px;
+    text-align: center;
+}
+
+body{
+    background-color: darkgreen;
+}

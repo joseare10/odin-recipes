@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: steelblue;
+}
+
+header{
+    color: rgb(31, 99, 76);
+    background-color: rgb(71, 165, 165);
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#container{
+    border: 5px solid snow;
+    width: 90%;
+ margin: 1px auto;
+
+}
+
+.img{
+    background-color: beige;
+    padding: 1%;
+    width: 29%;
+    border: 5px double rgb(0, 255, 170);
+   order: 3;
+}
+
+.desc{
+    background-color: rgb(1, 141, 118);
+    border: 5px solid black;
+    width: 67.7%;
+    padding: 1% 0%;
+    font-size: 20px;
+    order: 1;
+}
+
+.ingre{
+    background-color: rgb(11, 66, 138);
+    width: 100%;
+    padding: 2% 0%;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+   order: 5;
+}
+
+.pasos{
+    background-color: rgb(17, 91, 114);
+    width: 100%;
+    padding: 2% 0%;
+    border-bottom: 5px solid black;
+    order: 4;
+}
+
+.link{
+    background-color: rgb(22, 148, 110);
+    width: 100%;
+    padding: 2% 0%;
+    height: 100px;
+    order: 5;
+}
+
+.todo{
+    display: flex;
+   flex-wrap: wrap;
+   
+}
+
+.elements{
+    text-align: center;
+    background-color: rgb(185, 136, 30);
+    margin: 5px;
+}
+
+h2{
+    background-color: blueviolet;
+}
