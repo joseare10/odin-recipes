@@ -11,6 +11,7 @@ body{
     width: 95%;
     margin: 1px auto;
     border: 5px solid black;
+   
 }
 
 
@@ -27,19 +28,22 @@ header{
 }
 
 .elements{
-  
-    background-color: rgb(228, 43, 10);
+    width: 96%;
+    height: 50%;
+    background-color: rgb(148, 28, 38);
     text-align: center;
     margin: 4px 4px;
     color: rgb(245, 243, 245);
     border: 10px groove rgb(129, 24, 24);
     padding: 19px;
+    
 }
 
 
 
 .ham{
-    
+  width: 60%;
+  height: 50%;
     background-color: rgb(240, 221, 57);
     text-align: center;
     margin: 4px 4px;
@@ -50,7 +54,8 @@ header{
 }
 
 .pas{
-    
+    width: 32%;
+    height: 50%;
     background-color: rgb(228, 149, 31);
     text-align: center;
     margin: 4px 4px;
@@ -60,7 +65,10 @@ header{
 
 }
 
-
+.todo{
+    display: flex;
+   flex-wrap: wrap;
+}
 
 
 
